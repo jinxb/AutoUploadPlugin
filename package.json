@@ -1,14 +1,26 @@
 {
   "name": "jinxb-auto-upload-plugin",
   "version": "1.0.0",
-  "description": "自动部署服务器",
+  "description": "将打包后的文件自动部署服务器",
   "main": "plugins/AutoUploadPlugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinxb/AutoUploadPlugin.git"
+  },
+  "keywords": [
+    "Auto",
+    "Upload"
+  ],
   "author": "jinxb",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/jinxb/AutoUploadPlugin/issues"
+  },
+  "homepage": "https://github.com/jinxb/AutoUploadPlugin#readme",
+  "dependencies": {
     "node-ssh": "^12.0.0"
   }
 }
